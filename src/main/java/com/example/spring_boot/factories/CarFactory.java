@@ -1,6 +1,6 @@
-package com.example.spring_boot.factory;
+package com.example.spring_boot.factories;
 import com.example.spring_boot.interfaces.Car;
-import com.example.spring_boot.model.*;
+import com.example.spring_boot.models.*;
 
 public class CarFactory {
     public static Car createCar(String type) {

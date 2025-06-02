@@ -1,15 +1,15 @@
-package com.example.spring_boot.model;
+package com.example.spring_boot.models;
 
 import com.example.spring_boot.interfaces.Car;
 
-public class Sedan implements Car {
+public class SUV implements Car {
     @Override
     public String getType() {
-        return "Sedan";
+        return "SUV";
     }
 
     @Override
     public String toString() {
-        return "Sedan{}";
+        return "SUV{}";
     }
 }

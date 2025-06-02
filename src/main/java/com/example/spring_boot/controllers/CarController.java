@@ -1,6 +1,6 @@
-package com.example.spring_boot.controller;
+package com.example.spring_boot.controllers;
 
-import com.example.spring_boot.factory.CarFactory;
+import com.example.spring_boot.factories.CarFactory;
 import com.example.spring_boot.interfaces.Car;
 import org.springframework.web.bind.annotation.*;
 
